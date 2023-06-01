@@ -1,5 +1,4 @@
 import { Container, Form, Button, InputGroup } from "react-bootstrap"
-import './LandingPage.css';
 import Footer from "../Footer";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
