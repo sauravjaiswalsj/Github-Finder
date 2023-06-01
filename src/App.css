@@ -1,0 +1,183 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerLanding {
+  flex: 1;
+  width: 70vw;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin-top: auto;
+}
+
+.footer a {
+  color: #666;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #333;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 10px;
+  font-size: 12px;
+  color: #666;
+  margin-top: auto;
+}
+
+.header a {
+  color: #666;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #090909;
+}
+.aTag a{
+  color: #090909;
+  text-decoration: none;
+}
+.aTag a:hover {
+  color: #2d2c2f;
+  font-size: medium;
+}
+
+.UserInfo {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.githubUser,
+.gitRepo {
+  flex: 1;
+  margin-right: 10px;
+  align-items: center;
+}
+.gitRepo h1{
+  margin-top: 5rem;
+  text-align: center;
+}
+.gitCard{
+  text-align: center;
+  margin-top: 25%;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+  background: rgb(240, 240, 240);
+  height: fit-content;
+  margin-bottom: 3rem;
+}
+@media (min-width: 768px) {
+  .githubUser,
+  .gitRepo {
+    width: 50%;
+    align-items: center;
+  }
+  .gitCardRepo{
+    width: 40%;
+  }
+}
+@media (min-width: 992px) {
+  .githubUser,
+  .gitRepo {
+    width: 63.33%;
+    align-items: center;
+  }
+  .gitCardRepo{
+    width: 50%;
+  }
+}
+@media (min-width: 1280px) {
+  .gitCard{
+    width: 60%;
+  }
+  .gitCardRepo{
+    width: 60%;
+  }
+}
+@media (max-width: 700px) {
+  .gitCard{
+  width: 60%;
+  flex-direction: column;
+  align-items: center;
+  }
+  .gitCardRepo{
+    width: 50%;
+  }
+}
+
+.gitCardRepo{
+  margin-top: 5%;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+  background: rgb(240, 240, 240);
+  height: fit-content;
+  margin-bottom: 3rem;
+}
+
+
+.CardsRepository {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  background: transparent;
+  height: fit-content;
+}
+
+.gitCardRepo .wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.gitCardRepo .title {
+  margin: 0;
+}
+
+.gitCardRepo .subtitle {
+  margin: 0;
+}
+
+.gitCardRepo .stats {
+  display: table-row;
+
+  align-items: center;
+}
+
+.gitCardRepo .stats span {
+  flex-direction: column;
+  margin-right: 1rem;
+}

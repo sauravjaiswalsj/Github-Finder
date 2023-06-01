@@ -1,0 +1,98 @@
+.headerS h1{
+    color: rgb(17, 17, 17);
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.sub-heading{
+    color: rgb(17, 17, 17);
+    width: 50%;
+    margin-top: 1.2rem;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.TextInput {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    vertical-align: inherit;
+    display: flex;
+    margin-top: 15%;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    font: 400 1.2rem Poppins;
+    width: 95%;
+    
+    @media (max-width: 700px) {
+      border-radius: 10px;
+    }
+  }
+  .inputContainer{
+    display: flex;
+    align-items: center;
+
+    width: 500px;
+    margin-bottom: 1rem;
+
+  }
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .inputText {
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .inputBox {
+    flex: 1;
+    margin-right: 0.5px;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0px 0px 0px 0px;
+    font: 400 1.2rem Poppins;
+    width: 95%;
+    background: rgb(240, 240, 240);
+    color: rgb(17, 17, 17);
+    writing-mode: horizontal-tb !important;
+    
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+  }
+  
+  #button-addon2{
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    height: 2.0rem;
+    padding: 20px;
+    font: 400 1rem Poppins;
+    width: 10rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    background: rgb(20, 20, 20);
+    color: rgb(245, 245, 245)
+  }
